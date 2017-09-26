@@ -15,7 +15,7 @@ void setup()
   lcd.backlight(); // เปิดไฟ backlight
   lcd.setCursor(2, 0); // ไปที่ตัวอักษรที่ 2 บรรทัดที่ 0
   lcd.print("LCD ESP8266");
-  lcd.setCursor(3, 1); // ไปที่ตัวอักษรที่ 3 บรรทัดที่ 1
+  lcd.setCursor(2, 1); // ไปที่ตัวอักษรที่ 3 บรรทัดที่ 1
   lcd.print("Hello World");
 }
 

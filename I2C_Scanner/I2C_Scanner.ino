@@ -27,6 +27,14 @@
 // Devices with higher bit address might not be seen properly.
 //
  
+/*
+ * Vin – VCC
+ * GND – GND
+ * D1 – SCL
+ * D2 – SDA
+ */
+
+ 
 #include <Wire.h>
  
  
